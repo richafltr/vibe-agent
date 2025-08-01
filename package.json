@@ -1,0 +1,24 @@
+{
+  "name": "vibeware",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "validate": "node validateGames.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "posthog-js": "^1.253.4"
+  },
+  "description": "A WarioWare-style microgame collection"
+}
